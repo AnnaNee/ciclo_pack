@@ -1,4 +1,4 @@
-angular.module('cicloPack', ['ionic', 'cicloPack.routes', 'cicloPack.controllers', 'cicloPack.services'])
+angular.module('cicloPack', ['ionic', 'cicloPack.routes', 'cicloPack.controllers', 'cicloPack.services', 'ngCordova'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -6,7 +6,7 @@ angular.module('cicloPack', ['ionic', 'cicloPack.routes', 'cicloPack.controllers
       cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
       cordova.plugins.Keyboard.disableScroll(true);
     }
-    
+
     if (window.StatusBar) {
       StatusBar.styleDefault();
     }
