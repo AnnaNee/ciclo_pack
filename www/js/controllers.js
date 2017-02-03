@@ -14,4 +14,6 @@ angular.module('cicloPack.controllers', [])
         console.log("An error happened -> " + error);
       });
   };
-});
+})
+
+.controller('signinController', function($scope) {});

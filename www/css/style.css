@@ -1,1 +1,76 @@
-/* Empty. Add your own CSS if you like */
+/* Imports */
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+/* Helpers */
+.text-center {
+	text-align: center;
+}
+
+.barcode-btn {
+	font-size: 2.18rem;
+	background-color: #FFF;
+	color: #CCC;
+}
+
+.form-group {
+	margin-top: 1rem;
+}
+
+.form-group .form-label {
+    float: left;
+    width: 18%;
+    background-color: #607d50;
+    height: 2.15rem;
+    padding: 0.5rem;
+    text-align: right;
+    color: #FFF;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.form-group .form-field {
+	width: 82%;
+}
+
+.form-group:first-child {
+	margin-top: 0;
+}
+/* Overrides */
+.bar.bar-positive {
+	background-color: #93C179;
+	border-color: #93C179;
+	background-image: none;
+}
+
+/* Header */
+.search-header {
+	background-color: #93C179;
+	text-align: center;
+	height: 7rem;
+}
+
+.logo {
+	color: #FFF;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.search-input {
+    width: 90%;
+    float: left;
+    padding: 0.5rem !important;
+}
+
+.barcode-btn {
+	float: left;
+	width: 10%;
+}
+
+/* Login */
+.login-form .page-title {
+	color: #FFF;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.login-content {
+	background-color: #93C179;
+}

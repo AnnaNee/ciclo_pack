@@ -4,9 +4,15 @@ angular.module('cicloPack.routes', [])
   $stateProvider
 
   .state('home', {
-    url: '/',
+    url: '/home',
     templateUrl: 'templates/home.html',
     controller: 'homeController'
+  })
+
+  .state('sign-in', {
+    url: '/',
+    templateUrl: 'templates/sign-in.html',
+    controller: 'signinController'
   });
 
   $urlRouterProvider.otherwise('/');
